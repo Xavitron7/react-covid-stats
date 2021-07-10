@@ -71,7 +71,7 @@ function App() {
 
 //This is an inefficient way to do things. May be better downloading all case/vaccine data then updating DOM based on locally stored info. i.e., when the page loads, download all cases/vaccine data similar to the get all country function.
 
-//Done. I think I need a new affect with covid and vaccine data depenencies that captures the cases, death etc. numbers and stores them for use in the DOM. I think currently, the app is mounting before the covid data is available and not refreshing.s
+//Done. I think I need a new affect with covid and vaccine data depenencies that captures the cases, death etc. numbers and stores them for use in the DOM. I think currently, the app is mounting before the covid data is available and not refreshing. Hope the React upload works.
 
 
   return (

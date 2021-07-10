@@ -1,5 +1,6 @@
 {
   "name": "react-covid-app",
+  "homepage": "https://xavitron7.github.io/react-covid-stats",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,11 +12,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://xavitron7.github.io/react-covid-stats",
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
